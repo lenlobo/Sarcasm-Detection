@@ -9,7 +9,7 @@
 ## Generate tweets :
 Can directly use the tweets.json directly 
 or
- run python tweepy.py
+ ### run python tweepy.py
   Creates a csv file with tweets containing #sarcasm. Tweepy takes in query which is #sarcasm and the number of tweets to be extracted, that is count.
   Make a column using an ipynb notebook such as jupyter into the csv called label. Set label to 1 for all the sarcastic tweets
   Do the same, just change the query in the tweepy.py file to anything random. for example q='#airlines'.
