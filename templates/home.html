@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<title>Sarcasm Detection</title>
+		<style>
+		body{
+			margin:0;
+			padding:0;
+			background:#1767e8;
+		}
+		.search-box{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			background:#2f3640;
+			height:40px;
+			border-radius:40px;
+			padding:10px;
+		}
+		.search-box:hover >.search-text{
+			width:440px;
+			padding:0 6px;
+		}
+		.search-box:hover >.search-btn{
+			background: white;
+		}
+		.search-btn{
+			color:#1767e8;
+			float:right;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background: #2f3640;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.search-text{
+			border:none;
+			background: none;
+			outline:none;
+			float: left;
+			padding:0;
+			color:white;
+			font-size:16px;
+			transition:0.3s;
+			line-height:40px;
+			width:0px;
+
+		}
+	</style>
+	</head>
+	<body>
+
+		<form action="/kek" method="post">
+		<div class="search-box">
+			<input class="search-text" type="text" name="sent" id="sent" placeholder="Enter Sentence Here!">
+			<button type="submit" class="search-btn">
+    			<i class="fa fa-search"></i>
+			</button>
+		</div>
+	</form>
+	</body>
+	</html>
